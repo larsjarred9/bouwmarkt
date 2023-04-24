@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Houtjetouwtje | Home</title>
+    <script src="public/js/dist/bundle.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-secondary navbar-expand-lg bg-body-tertiary border-bottom py-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="public/img/logo/logo.jpg" alt="Houtjetouwtje" height="24" class="d-inline-block align-text-top pe-3">
+                <b>Houtjetouwtje</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Assortment
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="products.html">Tuinartikelen</a></li>
+                            <li><a class="dropdown-item" href="products.html">Verlichting</a></li>
+                            <li><a class="dropdown-item" href="products.html">Stereo installaties</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Klusadvies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex gap-3 navbar-nav">
+                    <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a class="nav-link" href="login.html"><i class="fa-solid fa-user"></i></a>
+                    <div class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Zoeken naar product..." aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Zoeken</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="container">
+        <div class="card border-primary mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Filter Opties</h5>
+                <form>
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Prijs:</label>
+                        <select class="form-select" id="price">
+                            <option selected>All Prijzen</option>
+                            <option>Onder &euro;50</option>
+                            <option>&euro;50 - &euro;100</option>
+                            <option>&euro;100 - &euro;200</option>
+                            <option>Over &euro;200</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="sort" class="form-label">Sortering:</label>
+                        <select class="form-select" id="sort">
+                            <option selected>Featured</option>
+                            <option>Prijs: Laag naar Hoog</option>
+                            <option>Price: Hoog naar Laag</option>
+                            <option>Reviews: Laag naar Hog</option>
+                            <option>Reviews: Hoog naar Laag</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Filters toevoegen</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row row-cols-4 g-4">
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="stretched-link" href="product.html">
+                    <div class="card border-primary">
+                        <img src="public/img/products/noimage.webp" height="245" class="card-img">
+                        <div class="card-body">
+                            <h2 class="fs-4">Product name</h2>
+                            <p>&euro; 99.99</p>
+                            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row row-cols-3">
+            <div class="col">
+                <div class="card bg-info">
+                    <div class="card-body gap-5 justify-content-center d-flex mt-3">
+                        <i class="fa fa-solid fa-circle-check text-primary fa-2x py-3"></i>
+                        <div>
+                            <h2 class="fs-4">2 jaar</h2>
+                            <p>Kwaliteitsgarantie</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-info">
+                    <div class="card-body gap-5 justify-content-center d-flex mt-3">
+                        <i class="fa fa-solid fa-shipping-fast text-primary fa-2x py-3"></i>
+                        <div>
+                            <h2 class="fs-4">100% Gratis</h2>
+                            <p>Verzending & retour</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-info">
+                    <div class="card-body gap-5 justify-content-center d-flex mt-3">
+                        <i class="fa fa-solid fa-face-smile-wink text-primary fa-2x py-3"></i>
+                        <div>
+                            <h2 class="fs-4">60 dagen</h2>
+                            <p>Bedenktermijn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="border-top shadow-sm py-5">
+        <div class="container">
+            <div class="row row-cols-3">
+                <div class="col">
+                    <img src="public/img/logo/logo.jpg" height="24" class="mb-3">
+                    <p>Houtjetouwtje.nl is een webshop die zich richt op de verkoop van allerlei soorten producten. Wij zijn een jong bedrijf dat zich richt op de verkoop van allerlei soorten producten. Wij zijn een jong bedrijf dat zich richt op de verkoop van allerlei soorten producten.</p>
+                </div>
+                <div class="col">
+                    <h2 class="fs-4">Contact</h2>
+                    <p>Wij zijn bereikbaar op werkdagen van 9:00 tot 17:00</p>
+                    <p><i class="fa fa-solid fa-phone"></i> 06-12345678</p>
+                    <p><i class="fa fa-solid fa-envelope"></i> info@Houtjetouwtje.nl</p>
+                </div>
+                <div class="col">
+                    <h2 class="fs-4">Klantenservice</h2>
+                    <p><a href="">Veelgestelde vragen</a></p>
+                    <p><a href="">Retourneren</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
