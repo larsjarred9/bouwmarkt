@@ -48,7 +48,7 @@
     </nav>
     <section class="container">
         <h1 class="fs-1">Winkelwagen</h1>
-        <div class="row row-cols-2 mb-4">
+        <div class="row row-cols-2 mb-5">
             <div class="col">
                 <div class="card border-primary">
                     <div class="card-body d-flex justify-content-between mt-3">
@@ -82,13 +82,72 @@
                 </div>
             </div>
         </div>
+        <div class="card border-primary mb-4">
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="adres" class="form-label">Adres</label>
+                        <input type="text" class="form-control" id="adres" placeholder="Vul hier uw adres in">
+                    </div>
+                    <div class="row row-cols-3">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="postcode" class="form-label">Postcode</label>
+                                <input type="text" class="form-control" id="postcode" placeholder="Vul hier uw postcode in">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="stad" class="form-label">Stad</label>
+                                <input type="text" class="form-control" id="stad" placeholder="Vul hier uw stad in">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="land" class="form-label">Land</label>
+                                <select class="form-select" id="land">
+                                    <option selected>Kies uw land</option>
+                                    <option>Nederland</option>
+                                    <option>België</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="row row-cols-2 row-cols-md-4 g-3">
+                    <div class="col">
+                        <div class="btn-group d-flex" role="group">
+                            <input type="radio" class="btn-check" checked name="payment" id="ideal" autocomplete="off">
+                            <label class="btn btn-outline-dark w-100" for="ideal"><img width="30" class="img-btn" alt="iDEAL" src="public/img/methods/ideal.svg" /><br>iDEAL</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="btn-group d-flex" role="group">
+                            <input type="radio" class="btn-check" name="payment" id="creditcard" autocomplete="off">
+                            <label class="btn btn-outline-dark w-100" for="creditcard"><img width="30" class="img-btn" alt="Credit / Debit Card" src="public/img/methods/creditcard.svg" /><br>Credit / Debit Card</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="btn-group d-flex" role="group">
+                            <input type="radio" class="btn-check" name="payment" id="paypal" autocomplete="off">
+                            <label class="btn btn-outline-dark w-100" for="paypal"><img width="30" class="img-btn" alt="PayPal" src="public/img/methods/paypal.svg" /><br>PayPal</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="btn-group d-flex" role="group">
+                            <input type="radio" class="btn-check" name="payment" id="bancontact" autocomplete="off">
+                            <label class="btn btn-outline-dark w-100" for="bancontact"><img width="30" class="img-btn" alt="Bancontact" src="public/img/methods/bancontact.svg" /><br>Bancontact</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="card bg-secondary">
             <div class="card-body">
                 <h1>Afrekenen</h1>
                 <p>&euro; <strong>173,98</strong> waarvan BTW (21%) &euro; <strong>36,53</strong></p>
                 <button class="btn btn-primary">Afrekenen</button>
             </div>
-
         </div>
     </section>
     <section class="container">
